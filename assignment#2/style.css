@@ -1,0 +1,40 @@
+* {
+	font-family:arial;
+	color:#555555;
+}
+
+hr {
+	border-width: 3px;
+}
+
+h1, h2 {
+	color: black;
+}
+
+h2 {
+	font-size: 18px;
+}
+th {
+	height:  40px;
+	font-size: 14px;
+	text-align: left;
+}
+
+#firstcol {
+	width: 100px;
+	font-style: bold;
+}
+
+td:hover{
+	color:#FEFFDB;
+	cursor: pointer;
+}
+
+#Instructions {
+	margin-top: 40px;
+}
+
+footer {
+	font-size: 12px;
+}
+
