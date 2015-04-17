@@ -1,0 +1,52 @@
+/* assingment 3 css*/
+body {
+	color: #555555;
+}
+
+#top_page {
+	width: screen.width;
+	height:100px;
+	background-color: lightgrey;
+}
+
+#yellow_box {
+	width:450px;
+	height: 150px;
+	padding-left: 25px;
+	padding-top: 30px;
+	border-radius: 25px;
+	border-style: solid;
+	border-color: #444444;
+	border-width: 2px;
+	background-color: #FEFFDB;
+	
+}
+
+hr {
+	color: #dddddd;
+	margin-top: 65px;
+}
+
+h1 {
+	font-size: 18px;
+}
+
+h2 {
+	font-size: 24px;
+}
+
+img {
+	float: left;
+	width: 100px;
+}
+
+#recipe_title { 
+	float: left;
+}
+input {
+	float: right;
+	height: 30px;
+	border-color: #8ABD2B;
+	background-color: #C8F279;
+	margin-top: 18px;
+}
