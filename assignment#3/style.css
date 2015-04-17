@@ -4,7 +4,7 @@ body {
 }
 
 #top_page {
-	width: screen.width;
+	width: 100%;
 	height:100px;
 	background-color: lightgrey;
 }
@@ -18,13 +18,12 @@ body {
 	border-style: solid;
 	border-color: #444444;
 	border-width: 2px;
-	background-color: #FEFFDB;
-	
+	background-color: #FEFFDB;	
 }
 
 hr {
 	color: #dddddd;
-	margin-top: 65px;
+	margin-top: 10px;
 }
 
 h1 {
@@ -49,4 +48,7 @@ input {
 	border-color: #8ABD2B;
 	background-color: #C8F279;
 	margin-top: 18px;
+}
+
+br {clear:both;
 }
