@@ -12,10 +12,14 @@ a {
 	background-color: lightgrey;
 }
 
+.logo:first-child {
+	margin-right: auto;
+}
+
 #top_page_links{
-	float: right;
-	display: inline;
-	margin-right: 20px;
+	display:flex;
+	flex-direction: row;
+	justify-content: flex-end;
 }
 
 #gray_box {
