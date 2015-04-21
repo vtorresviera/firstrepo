@@ -1,0 +1,36 @@
+body {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+h1 {
+	margin-top: 0;
+	padding-top: 0;
+	text-align: center;
+	background: white;
+	width:95%;
+	margin-top: 0px;
+	padding-top:0px;
+}
+
+h2 {
+	text-align: center;
+	background: white;
+	width:95%;
+}
+
+mark {
+	color: gray;
+}	
+
+.row {
+	display: inline;
+	width: 95%;
+	margin-left: auto;
+	margin-right: auto;
+	align-self: center;
+	text-align: left;
+	padding-left: 150px;
+	padding-right: 150px;
+}
+/*#carbonads-container {display:none} h1[id] {padding-top:0px; margin-top:20px} .zero-clipboard {display:none !important} .bs-old-docs {display:none} .bs-social {display:none} .bs-sidebar {display:none !important} .col-md-9[role=main] {width:100% !important} .navbar-fixed-top {position:absolute !important}*/
