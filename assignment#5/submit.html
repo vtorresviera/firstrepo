@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+<head>
+<title>Assignment 4</title>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+	<div id="top_page">
+	<div id="top_page_links">
+	<img class="logo" src="recipevector.png"/>
+	<a href="index.html"><strong>Home</strong></a>
+	<a href="recipe.html"><strong>Recipes</strong></a>
+	<a href="submit.html"><strong>Submit a Recipe</strong></a>
+	</div>
+	<div class="clear"></div>
+	<br>		
+	</div>
+	<h1>Submit a recipe</h1>
+	<p>We'd love to know what your favorites recipes are!  Submit them here, and if they're awesome, we'll include them in our site."</p>
+	<div id="gray_box">
+		<form action="#" method="POST" name="my_form" id="form">
+			<label for="Name">Name:</label> <br>
+			<input type="text" name="Name" id="Name" size="30" maxlength="50"/><br>
+			<label for="Email">Email:</label><br>
+			<input type="text" name="Email" id="Email"size="30" maxlength="60"/><br>
+			<label for="foodtype">What type of recipe is this? </label><br>
+			<select name="foodtype" id="foodtype">
+				<option value="Appetizer">Appetizer</option>
+				<option value="Dessert">Dessert</option>
+				<option value="Soup">Soup</option>
+				<option value="Main Entree">Main Entree</option>	
+			</select>
+			<br>
+			<label for="Recipe">Enter your recipe below:</label><br>
+			<textarea name="txtarea" cols=50 rows=20></textarea>
+			<br>
+			<input type="submit" name="submit" id="submit" value="Submit Recipe" />
+			</form>	
+	</div>
+	<hr>
+<footer>
+ 	<address>
+		<p><a href="mailto:vtorresviera@gmail.com">vtorresviera@gmail.com</a> | <a href="tel:555-555-5555">555-555-5555</p>
+ 	</address>
+</footer> 
+</body>
+</html>
