@@ -17,6 +17,7 @@ a {
 }
 
 #top_page_links{
+	align-self: flex-end;
 	display:flex;
 	flex-direction: row;
 	justify-content: flex-end;
