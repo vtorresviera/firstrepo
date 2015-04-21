@@ -97,6 +97,10 @@ br {
 		justify-content: flex-end;
 	}
 
+	#top_page_links a,#top_page_links img{
+		align-self: center;
+	}
+
 	.pic {
 		width: 300px;
 		float: left;
