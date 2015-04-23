@@ -54,16 +54,22 @@
     <button class="btn btn-primary btn-lg" id="button3" onclick="LoopTen()">
         Loop 10
     </button>
+    <!--_______________________-->
+    <!--_Loop Names All Name___-->
+    <!--_____Button4___________-->
+    <button class="btn btn-danger btn-lg" id="button4" onclick="DisplayAll()">
+        All The Names
+    </button>
     <!--_________________-->
     <!--_Loop Names w/P___-->
-    <!--_____Button4_____-->
-    <button class="btn btn-primary btn-lg" id="button4" onclick="Pname()">
+    <!--_____Button5_____-->
+    <button class="btn btn-primary btn-lg" id="button5" onclick="Pname()">
         Starts with P
     </button>
     <!--_______________________-->
     <!--_Car Object Creation___-->
-    <!--_____Button5___________-->
-    <button class="btn btn-success btn-lg" id="button5" onclick="CarObject()">
+    <!--_____Button6___________-->
+    <button class="btn btn-success btn-lg" id="button6" onclick="CarObject()">
         Create a Car
     </button>
     <!--_________________-->
@@ -86,6 +92,13 @@
                 document.getElementById("button3").onclick = console.log(i);
             }
         }
+        //Array - Display Names
+    function DisplayAll() {
+            var namesAll = ["Vanessa", "Lenny", "Orlando", "Orly"];
+            for (var i = 0; i < namesAll.length; i++) {
+                document.getElementById("button5").onclick = console.log(namesAll[i])
+            };
+        }
         //Array - Display Names that start with P
 
     function Pname() {
@@ -93,7 +106,7 @@
             for (i = 0; i < names2.length; i++) {
 
                 if (names2[i].substring(0, 1) == "P") {
-                    document.getElementById("button4").onclick = console.log(names2[i]);
+                    document.getElementById("button5").onclick = console.log(names2[i])
                 }
             }
         }
@@ -103,12 +116,12 @@
             doors: 4,
             HonkMethod: function() {
                 console.log("HONK!");
-                for (var property in Car){
-                console.log(property);
-            }
+                for (var property in Car) {
+                    console.log(property);
+                }
             }
         };
-        document.getElementById("button5").onclick = Car.HonkMethod();
+        document.getElementById("button6").onclick = Car.HonkMethod();
     }
     </script>
 </body>
