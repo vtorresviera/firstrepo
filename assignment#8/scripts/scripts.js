@@ -35,10 +35,8 @@ $(document).ready(function(){
 	
          // To create Car Object
 
-     $("#button4").click(CarObject); 
-
-     function CarObject() {
-         var Car = {
+     $("#button4").click(function(){
+        var Car = {
              doors: 4,
              HonkMethod: function() {
                  console.log("HONK!");
@@ -46,10 +44,12 @@ $(document).ready(function(){
                      console.log(property);
                  }
              }
-         };
-     }
+         }
+         Car.HonkMethod();
+     });
+      
      // .each function
      $("li").each(function(index, value) { 
-    console.log(value);
+        console.log(value);
     }); 
 });
