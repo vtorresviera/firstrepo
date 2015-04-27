@@ -151,6 +151,9 @@ function rot13(str) {
 		var index13 = indexarray[b] + 13;
 		var Letter = " ";
 		var Letter = reverseLetterIndex (index13, Letter);
+		if (index13 == 13){
+			var Letter = " ";
+		}
 		rot13array.push(Letter);
 	}
 	console.log(rot13array);
@@ -158,4 +161,4 @@ function rot13(str) {
 	console.log(newString);
 
 }
-rot13("Vanessa");
+rot13("Vanessa Torres");
