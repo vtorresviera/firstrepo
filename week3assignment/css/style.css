@@ -1,25 +1,23 @@
-/*body {
-    margin-left: 50px;
-    margin-right: 50px;
-}*/
-
+/*wrapper formatting*/
 #page-wrap {
     background-color: #404040;
     color: #EDE3DD;
 }
 
-h2 {
+h2.wow.slideInDown {
     text-align: center;
-    padding-top: 60px;
+    padding-top: 15px;
     color: white;
-    font-family: georgia;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
 }
 
 .jumboh3 {
     margin-top: 10px;
     text-align: center;
-    color:#404040;
-    font-family: georgia;
+    color: #404040;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
 }
 
 img {
@@ -29,15 +27,27 @@ img {
     padding-bottom: 0;
     padding-top: 0;
 }
+p#other {
+    font-family: "Raleway";
+    font-weight: 200;
+    font-size: medium;
+    font-style: italic;
+}
 
 p {
     display: inline-block;
+    font-family: "Raleway";
+}
+/*hamburger bars formatting*/
+.icon-bar {
+    background-color: gray;
 }
 
 footer {
     padding-left: 15px;
     font-size: 10px;
 }
+
 hr.style-six {
     border: 0;
     height: 0;
@@ -52,12 +62,13 @@ h5 {
 h4 {
     font-size: 14px;
     margin-top: 0;
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
 }
-
-/*.center {
-    margin: 0 auto;
-    width: 70%;
-}*/
+h3 {
+    font-family: "Lato", sans-serif;
+    font-weight: 100;
+}
 
 .navbar {
     width: 90%;
@@ -71,28 +82,22 @@ h4 {
     background-color: #999999;
     height: 200px;
 }
-
+/*master heading formatting*/
 #jumbotron {
-    height: 500px;
+    height: 400px;
     width: 100%;
+    font-family: lato;
     background-position: center, center;
     background-image: url(/img/prpicture.jpg);
 }
-
-/*#email {
-    color: #CC0000;
-}*/
-
-/*#profile {
-    margin-left: 0;
-    text-align: left;
-}*/
-
-/*#services {
-    margin-left: 0;
-    text-align: left;
-}*/
-
+/*customer logos formatting */
+.logo {
+    width:100px;
+    height: 100px;
+    margin:20px;
+    text-align: center;
+}
+/*my picture*/
 #moi {
     width: 155px;
     height: 200px;
@@ -180,7 +185,8 @@ h4 {
 /*Skillset Animated Bars*/
 /**/
 /**/
-/*Contact Us*/
+/*Contact Us formatting */
+
 input#submit {
     height: 40px;
     width: 150px;
@@ -195,6 +201,7 @@ input#submit {
 
 input#Email {
     /*height: 30px;*/
+    
     font-size: 14px;
     margin-bottom: 20px;
     color: #B0A9A9;
@@ -205,12 +212,13 @@ input#Name {
     font-size: 14px;
     margin-bottom: 20px;
     color: #B0A9A9;
-
 }
-input#txtarea{
+
+input#txtarea {
     font-size: 14px;
     color: #B0A9A9;
 }
+
 textarea {
     font-size: 14px;
     color: #B0A9A9;
