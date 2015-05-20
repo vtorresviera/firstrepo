@@ -1,0 +1,239 @@
+/*sass variables*/
+$font-family-h:  'Lato', sans-serif;
+$font-family-p: 'Raleway';
+$input-color:   '#B0A9A9';
+
+/*wrapper formatting*/
+#page-wrap {
+    background-color: #404040;
+    color: #EDE3DD;
+}
+
+h2.wow.slideInDown {
+    text-align: center;
+    padding-top: 15px;
+    color: white;
+    font: $font-family-h;
+    /*font-family: 'Lato', sans-serif;*/
+    font-weight: 100;
+}
+
+.jumboh3 {
+    margin-top: 10px;
+    text-align: center;
+    color: #404040;
+    font: $font-family-h;
+    /*font-family: 'Lato', sans-serif;*/
+    font-weight: 100;
+}
+
+img {
+    margin-top: 0;
+    margin-bottom: 0;
+    border-spacing: 0;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+p#other {
+    font: $font-family-p;
+    /*font-family: "Raleway";*/
+    font-weight: 200;
+    font-size: medium;
+    font-style: italic;
+}
+
+p {
+    display: inline-block;
+    font: $font-family-p;
+    /*font-family: "Raleway";*/
+}
+/*hamburger bars formatting*/
+.icon-bar {
+    background-color: gray;
+}
+
+footer {
+    padding-left: 15px;
+    font-size: 10px;
+}
+
+hr.style-six {
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+h5 {
+    color: gray;
+}
+
+h4 {
+    font-size: 14px;
+    margin-top: 0;
+    font: $font-family-h;
+    /*font-family: "Lato", sans-serif;*/
+    font-weight: 100;
+}
+h3 {
+    font: $font-family-h;
+    /*font-family: "Lato", sans-serif;*/
+    font-weight: 100;
+}
+
+.navbar {
+    width: 90%;
+}
+
+.clear {
+    clear: both;
+}
+
+#stats {
+    background-color: #999999;
+    height: 200px;
+}
+/*master heading formatting*/
+#jumbotron {
+    height: 400px;
+    width: 100%;
+    font: $font-family-h;
+    /*font-family: lato;*/
+    background-position: center, center;
+    background-image: url(../img/prpicture.jpg);
+}
+/*customer logos formatting */
+.logo {
+    width:100px;
+    height: 100px;
+    margin:20px;
+    text-align: center;
+}
+/*my picture*/
+#moi {
+    width: 155px;
+    height: 200px;
+    margin-right: 0;
+}
+/*Skillset Animated progress bar*/
+
+.skillbar {
+    position: relative;
+    display: block;
+    margin-bottom: 15px;
+    /*width:100%;*/
+    
+    width: 300px;
+    background: #eee;
+    height: 35px;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -webkit-transition: 0.4s linear;
+    -moz-transition: 0.4s linear;
+    -ms-transition: 0.4s linear;
+    -o-transition: 0.4s linear;
+    transition: 0.4s linear;
+    -webkit-transition-property: width, background-color;
+    -moz-transition-property: width, background-color;
+    -ms-transition-property: width, background-color;
+    -o-transition-property: width, background-color;
+    transition-property: width, background-color;
+}
+
+.skillbar-title {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*width: 110px;*/
+    
+    width: 80px;
+    font-weight: bold;
+    font-size: 13px;
+    color: #ffffff;
+    background: #6adcfa;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 4px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding-left: 0;
+}
+
+.skillbar-title span {
+    display: block;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 0 20px;
+    height: 35px;
+    line-height: 35px;
+    -webkit-border-top-left-radius: 3px;
+    -webkit-border-bottom-left-radius: 3px;
+    -moz-border-radius-topleft: 3px;
+    -moz-border-radius-bottomleft: 3px;
+    border-top-left-radius: 3px;
+    border-bottom-left-radius: 3px;
+}
+
+.skillbar-bar {
+    height: 35px;
+    width: 0px;
+    background: #6adcfa;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+}
+
+.skill-bar-percent {
+    position: absolute;
+    right: 10px;
+    top: 0;
+    font-size: 11px;
+    height: 35px;
+    line-height: 35px;
+    color: #ffffff;
+    color: rgba(0, 0, 0, 0.4);
+}
+/*Skillset Animated Bars*/
+/**/
+/**/
+/*Contact Us formatting */
+
+input#submit {
+    height: 40px;
+    width: 150px;
+    font-size: 16px;
+    font-style: bold;
+    border-color: #8ABD2B;
+    background-color: #C8F279;
+    margin-top: 35px;
+    text-align: center;
+    margin-left: 85px;
+}
+
+input#Email {
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: $input-color;
+    /*color: #B0A9A9;*/
+}
+
+input#Name {
+    height: 15px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    color: $input-color;
+    /*color: #B0A9A9;*/
+}
+
+input#txtarea {
+    font-size: 14px;
+    color: $input-color;
+    /*color: #B0A9A9;*/
+}
+
+textarea {
+    font-size: 14px;
+    color: $input-color;
+    /*color: #B0A9A9;*/
+}

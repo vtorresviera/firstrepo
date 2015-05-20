@@ -11,7 +11,6 @@
 
 function giveMeFive() {
 	console.log(5 + " Excercise #1");
-	return 5;
 }
 giveMeFive();
 
@@ -21,12 +20,11 @@ giveMeFive();
 // This function should accept 1 parameter
 // and return the exact same thing. This type
 // of function is called a no-op as in (no operation)
-var oneParm = "oneParmValue";
+//var oneParm = "oneParmValue";
 function noOp(oneParm) {
 	console.log(oneParm + " Excercise#2");
-	return oneParm;
 }
-noOp(oneParm);
+noOp("hola");
 //THIS I AN EMPTY FUNCTION
 
 //---------
@@ -40,7 +38,6 @@ noOp(oneParm);
 function double(numberToDouble) {
 	var doubledNumber = numberToDouble * 2;
 	console.log(doubledNumber + " Excercise #3");
-	return 5*5;
 }
 double(5);
 
@@ -92,7 +89,8 @@ var lettersArray = ["a","b","c","d","e","f","g","h","i","j","k","l","m","n","o",
 	var checkedLetter = InputLetter.toLowerCase();
 	var LetterIndexValue = lettersArray.indexOf(checkedLetter);
 	var Indice = LetterIndexValue +=1;
-	return Indice;	
+	return Indice;
+	console.log(Indice);	
 }
 
 
@@ -123,7 +121,8 @@ letterIndex("B");
  	else {
  	var Letter = lettersArray[newIndice];
  	}
- 	return Letter; 
+ 	return Letter;
+ 	console.log(Letter); 
 	 	}
 
 reverseLetterIndex(28);
@@ -152,7 +151,6 @@ function rot13(str) {
 	var rot13array = [];
 	for (b=0;b<indexarray.length;b++){	
 		var index13 = indexarray[b] + 13;
-		var Letter = " ";
 		var Letter = reverseLetterIndex (index13, Letter);
 		if (index13 == 13){
 			var Letter = " ";
